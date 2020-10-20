@@ -1,0 +1,29 @@
+.header {
+    max-width: 1431px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo {
+    display: block;
+    background-image: url(../../../img/logo.png);
+    background-repeat: no-repeat;
+    width: 141px;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    &-item{
+        margin-right: 50px;
+    }
+    &-link{
+        text-decoration: none;
+    }
+}
